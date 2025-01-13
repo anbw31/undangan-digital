@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdfdfd;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.page {
+    width: 393px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 15px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+}
+
+.page.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.first-page {
+    background-image: url('ni\ nikah\ .jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #49322A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.first-page h1, .first-page p {
+    font-family: Judson;
+}
+
+.first-page p {
+    font-size: 23px;
+}
+
+.first-page h2 {
+    font-family: Luxurious Script;
+    font-size: 50px;
+}
+
+.first-page h1, .first-page h2, .first-page p {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #AA8D85;
+    color: #EAE2E0;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #D49C94;
+}
+
+.second-page, .third-page, .fourth-page, .fifth-page, .sixth-page {
+    background-image: url('download\ \(35\).jpg');
+    background-size: cover;
+    background-position: center;
+    color: #49322A;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.first-page p, .first-page h1, .first-page h2 {
+    color: #49322A;
+}
+
+.second-page {
+    background-size: cover;
+    background-position: center;
+    color: #AA8D85;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.second-page h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Luxurious Script;
+    color: #49322A;
+}
+
+.second-page h3 {
+    color: #49322A;
+}
+
+.second-page .arabic {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #49322A;
+}
+
+.second-page h2, .second-page p {
+    font-family: Judson;
+    color: #49322A;
+}
+
+.third-page {
+    background-position: center;
+    color: #49322A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.third-page h1 {
+    font-family: Luxurious Script;
+    font-size: 50px;
+    color: #49322A;
+}
+
+.third-page h2, .third-page p {
+    font-family: Judson;
+    color: #49322A;
+}
+
+.couple {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.person {
+    text-align: center;
+}
+
+.person img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.person h2 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.fourth-page {
+    background-size: cover;
+    background-position: center;
+    color: #49322A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.fourth-page h1 {
+    font-family: Luxurious Script;
+    font-size: 50px;
+    color: #49322A;
+}
+
+.fourth-page h2, .fourth-page p {
+    color: #49322A;
+}
+
+.fourth-page .countdown {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+    color: #49322A;
+}
+
+.countdown div {
+    text-align: center;
+    color: #49322A;
+}
+
+.countdown h2 {
+    font-size: 2rem;
+    color: #49322A;
+}
+
+.event {
+    margin: 20px 0;
+}
+
+.event h2 {
+    font-size: 1.75rem;
+    color: #49322A;
+}
+
+.event p {
+    margin: 10px 0;
+}
+
+.event .button {
+    margin-top: 10px;
+}
+
+.fifth-page {
+    background-size: cover;
+    background-position: center;
+    color: #49322A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.fifth-page h1 {
+    font-family: Luxurious Script;
+    font-size: 50px;
+}
+
+.fifth-page .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.fifth-page .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.sixth-page {
+    background-size: cover;
+    background-position: center;
+    color: #49322A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.sixth-page .families {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.family {
+    text-align: center;
+}
+
+.family h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.family-box {
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #49322A;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.page {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.person img, .gallery img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.person img:hover, .gallery img:hover {
+    transform: scale(1.05);
+}
